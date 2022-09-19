@@ -42,16 +42,6 @@ BuildRequires:	cmake(Qt6Qml)
 BuildRequires:	cmake(Qt6QmlModels)
 BuildRequires:	cmake(Qt6Quick)
 BuildRequires:	cmake(Qt6Quick3D)
-BuildRequires:	cmake(Qt6Quick3DParticleEffects)
-BuildRequires:	cmake(Qt6Quick3DEffects)
-BuildRequires:	cmake(Qt6Quick3DHelpers)
-BuildRequires:	cmake(Qt6Quick3DParticles)
-BuildRequires:	cmake(Qt6Quick3DAssetUtils)
-BuildRequires:	cmake(Qt6Quick3DAssetImport)
-BuildRequires:	cmake(Qt6Quick3DGlslParserPrivate)
-BuildRequires:	cmake(Qt6Quick3DIblBaker)
-BuildRequires:	cmake(Qt6Quick3DRuntimeRender)
-BuildRequires:	cmake(Qt6Quick3DUtils)
 BuildRequires:	cmake(Qt6QuickWidgets)
 BuildRequires:	cmake(Qt6Help)
 BuildRequires:	cmake(Qt6SerialPort)
@@ -83,6 +73,10 @@ BuildRequires:	pkgconfig(libpcre2-16)
 BuildRequires:	pkgconfig(libzstd)
 BuildRequires:	cmake(double-conversion)
 BuildRequires:	python-qt6
+BuildRequires:	python-qt6-core
+BuildRequires:	python-qt6-gui
+BuildRequires:	python-qt6-network
+BuildRequires:	python-qt6-webchannel
 
 %description
 PyQt is a set of Python bindings for Trolltech's Qt application framework.
