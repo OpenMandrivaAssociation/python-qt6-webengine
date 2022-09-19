@@ -77,6 +77,7 @@ BuildRequires:	python-qt6-core
 BuildRequires:	python-qt6-gui
 BuildRequires:	python-qt6-network
 BuildRequires:	python-qt6-webchannel
+BuildRequires:	python-qt6-devel
 
 %description
 PyQt is a set of Python bindings for Trolltech's Qt application framework.
