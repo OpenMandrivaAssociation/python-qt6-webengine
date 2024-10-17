@@ -10,7 +10,7 @@ Version:	6.7.0
 Release:	1
 License:	GPLv2+
 Group:		Development/KDE and Qt
-Url:		http://www.riverbankcomputing.co.uk/software/pyqt/intro
+Url:		https://www.riverbankcomputing.co.uk/software/pyqt/intro
 Source0:	https://files.pythonhosted.org/packages/source/P/PyQt6-WebEngine/PyQt6_WebEngine-%{version}.tar.gz
 
 BuildRequires:	python-sip >= 5.1.0
