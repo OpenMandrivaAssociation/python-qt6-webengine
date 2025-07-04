@@ -89,7 +89,7 @@ PyQt is a set of Python bindings for Trolltech's Qt application framework.
 %{python_sitearch}/PyQt6/bindings/QtWebEngineCore
 %{python_sitearch}/PyQt6/bindings/QtWebEngineQuick
 %{python_sitearch}/PyQt6/bindings/QtWebEngineWidgets
-#{python_sitearch}/PyQt6_WebEngine*.dist-info
+%{python_sitearch}/pyqt6_webengine-%{version}.dist-info/
 
 %prep
 %autosetup -n pyqt6_webengine-%{version} -p1
