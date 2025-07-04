@@ -92,7 +92,7 @@ PyQt is a set of Python bindings for Trolltech's Qt application framework.
 %{python_sitearch}/PyQt6_WebEngine*.dist-info
 
 %prep
-%autosetup -n pyqt6_webengine-6.9.0-%{version} -p1
+%autosetup -n pyqt6_webengine-%{version} -p1
 export QTDIR=%{_qtdir}
 export PATH=%{_qtdir}/bin:$PATH
 sip-build \
