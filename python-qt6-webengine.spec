@@ -6,7 +6,7 @@
 
 Summary:	Set of Python bindings for Qt WebEngine
 Name:		python-qt6-webengine
-Version:	6.7.0
+Version:	6.9.0
 Release:	1
 License:	GPLv2+
 Group:		Development/KDE and Qt
@@ -89,10 +89,10 @@ PyQt is a set of Python bindings for Trolltech's Qt application framework.
 %{python_sitearch}/PyQt6/bindings/QtWebEngineCore
 %{python_sitearch}/PyQt6/bindings/QtWebEngineQuick
 %{python_sitearch}/PyQt6/bindings/QtWebEngineWidgets
-%{python_sitearch}/PyQt6_WebEngine*.dist-info
+%{python_sitearch}/pyqt6_webengine-%{version}.dist-info/
 
 %prep
-%autosetup -n PyQt6_WebEngine-%{version} -p1
+%autosetup -n pyqt6_webengine-%{version} -p1
 export QTDIR=%{_qtdir}
 export PATH=%{_qtdir}/bin:$PATH
 sip-build \
