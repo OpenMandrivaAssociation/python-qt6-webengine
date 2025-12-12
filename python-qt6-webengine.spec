@@ -7,7 +7,7 @@
 Summary:	Set of Python bindings for Qt WebEngine
 Name:		python-qt6-webengine
 Version:	6.9.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Development/KDE and Qt
 Url:		https://www.riverbankcomputing.co.uk/software/pyqt/intro
