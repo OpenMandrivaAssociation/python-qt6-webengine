@@ -13,6 +13,7 @@ Group:		Development/KDE and Qt
 Url:		https://www.riverbankcomputing.co.uk/software/pyqt/intro
 Source0:	https://files.pythonhosted.org/packages/source/P/PyQt6-WebEngine/PyQt6_WebEngine-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	python-sip >= 5.1.0
 BuildRequires:	python-sip-qt6
 BuildRequires:	python-qt-builder
