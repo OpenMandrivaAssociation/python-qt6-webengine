@@ -7,7 +7,7 @@
 Summary:	Set of Python bindings for Qt WebEngine
 Name:		python-qt6-webengine
 Version:	6.10.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Development/KDE and Qt
 Url:		https://www.riverbankcomputing.co.uk/software/pyqt/intro
@@ -16,7 +16,7 @@ Source0:	https://files.pythonhosted.org/packages/source/p/pyqt6_webengine/pyqt6_
 BuildRequires:	make
 BuildRequires:	python-sip >= 5.1.0
 BuildRequires:	python-sip-qt6
-BuildRequires:	python-qt-builder
+BuildRequires:	python%{pyver}dist(pyqt-builder) >= 1.20
 BuildRequires:	qmake-qt6
 BuildRequires:	qt6-cmake
 BuildRequires:	glibc-devel
@@ -84,9 +84,9 @@ BuildRequires:	python-qt6-devel
 PyQt is a set of Python bindings for Trolltech's Qt application framework.
 
 %files
-%{python_sitearch}/PyQt6/QtWebEngineCore.abi3.so
-%{python_sitearch}/PyQt6/QtWebEngineQuick.abi3.so
-%{python_sitearch}/PyQt6/QtWebEngineWidgets.abi3.so
+%{python_sitearch}/PyQt6/QtWebEngineCore.abi3*.so
+%{python_sitearch}/PyQt6/QtWebEngineQuick.abi3*.so
+%{python_sitearch}/PyQt6/QtWebEngineWidgets.abi3*.so
 %{python_sitearch}/PyQt6/bindings/QtWebEngineCore
 %{python_sitearch}/PyQt6/bindings/QtWebEngineQuick
 %{python_sitearch}/PyQt6/bindings/QtWebEngineWidgets
